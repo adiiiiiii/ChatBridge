@@ -1,0 +1,24 @@
+{
+  "name": "ai-genie",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "start": "concurrently \"vite\" \"node server.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.10",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "marked": "^18.0.5",
+    "openai": "^6.42.0"
+  }
+}
